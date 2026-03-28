@@ -1,0 +1,39 @@
+# Firebase credentials - NEVER commit these files
+*.json
+!package.json
+!tsconfig.json
+!package-lock.json
+evernest-project-firebase-adminsdk-*.json
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+bin/
+obj/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules
+node_modules/
